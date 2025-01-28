@@ -1,7 +1,7 @@
 
 <template>
   <div tabindex="0" class="text-gray-100 py-3.5 px-6 md:flex justify-between items-center">
-    <a href="/"><div class="flex items-center cursor-pointer">
+    <a href="/portfolio-project/"><div class="flex items-center cursor-pointer">
       <span class="text-gray-100 text-xl mr-1">
         <i class="bi bi-code-square"></i>
       </span>

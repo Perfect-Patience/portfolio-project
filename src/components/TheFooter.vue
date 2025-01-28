@@ -6,9 +6,9 @@
           <p class="text-gray-400">Web Developer</p>
         </div>
         <ul class="flex justify-center sm:justify-end gap-4 mb-4 sm:mb-0">
-          <li><a href="/" class="text-gray-400 hover:text-white">Home</a></li>
-          <li><a href="/about" class="text-gray-400 hover:text-white">About Me</a></li>
-          <li><a href="/projects" class="text-gray-400 hover:text-white">Projects</a></li>
+          <li><a href="portfolio-project/" class="text-gray-400 hover:text-white">Home</a></li>
+          <li><a href="portfolio-project/about" class="text-gray-400 hover:text-white">About Me</a></li>
+          <li><a href="portfolio-project/projects" class="text-gray-400 hover:text-white">Projects</a></li>
           <li><a href="mailto:patiencedah@gmail.com" class="text-gray-400 hover:text-white" target="_blank">Contact</a></li>
         </ul>
         <div class="text-center sm:text-right">

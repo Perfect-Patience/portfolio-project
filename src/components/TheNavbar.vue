@@ -39,9 +39,9 @@ export default {
   setup() {
     let open = ref(false);
     let links = [
-      { name: "Home", link: "/" },
-      { name: "About me", link: "/about" },
-      { name: "Projects", link: "/projects" },
+      { name: "Home", link: "/portfolio-project/" },
+      { name: "About me", link: "/portfolio-project/about" },
+      { name: "Projects", link: "/portfolio-project/projects" },
     ];
 
     function toggleMenu() {

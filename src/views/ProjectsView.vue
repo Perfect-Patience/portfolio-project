@@ -45,7 +45,7 @@ export default {
           title: "DevJobs",
           description:
             "A web application showcasing job opportunities with a user-friendly interface. The application features Dark and Light modes that provide users with a customizable visual preference.",
-          image: "src/assets/devjobs.png",
+          image: "/src/assets/devjobs.png",
           link: "https://devjobs-o6nzcl5cp-perfect-patience.vercel.app",
         },
         {
@@ -53,36 +53,36 @@ export default {
           title: "Portfolio Website",
           description:
             "A personal portfolio built with Vue.js and TailwindCSS.",
-          image: "src/assets/portfolio.png",
+          image: "/src/assets/portfolio.png",
           link: "https://perfect-patience.github.io/Portfolio-project/",
         },
         {
           id: 3,
-          title: "Cloudinary Image Uploader",
+          title: "Sankofa Eats",
           description:
             "A local Ghanaian restuarant application built with HTML, CSS and JavaScript ",
-          image: "src/assets/sankofa eats.png",
+          image: "/src/assets/sankofa eats.png",
           link: "https://perfect-patience.github.io/Sankofa_Eats/",
         },
         {
           id: 4,
           title: "SofaHouse",
           description: "A figma design of a furniture E-commerce application",
-          image: "src/assets/sofaHouse.png",
+          image: "/src/assets/sofaHouse.png",
           link: "https://www.figma.com/design/ALbfVDlSpm8sqtk6j5gNQU/SofaHouse?node-id=0-1&t=EZXl6AZkCQeTWIXU-1",
         },
         {
           id: 5,
           title: "Qr-Code Component",
           description: "A beginner friendly project from Frontend Mentor",
-          image: "src/assets/qr-code.png",
+          image: "/src/assets/qr-code.png",
           link: "https://perfect-patience.github.io/frontend-mentor-challenges/qr-code-component",
         },
         {
           id: 6,
           title: "Blog Card Preview",
           description: "A beginner friendly project from Frontend Mentor",
-          image: "src/assets/card.png",
+          image: "/src/assets/card.png",
           link: "https://perfect-patience.github.io/frontend-mentor-challenges/blog-preview-card",
         },
       ],

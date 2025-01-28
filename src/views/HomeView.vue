@@ -35,7 +35,7 @@
           <img src="../assets/html.jpg" class="size-10 sm:size-15 rounded"/>
           <img src="../assets/css.jpg" class="size-10 sm:size-15 rounded"/>
           <img src="../assets/JavaScript.jpg" class="size-10 sm:size-15 rounded"/>
-          <img src="../assets/vue.net" class="size-10 sm:size-15 rounded"/>
+          <img src="../assets/vue.png" class="size-10 sm:size-15 rounded"/>
           <img src="../assets/tailwind.jpg" class="size-10 sm:size-15 rounded"/>
           <img src="../assets/firebase.jpg" class="size-10 sm:size-15 rounded"/>
           <br>

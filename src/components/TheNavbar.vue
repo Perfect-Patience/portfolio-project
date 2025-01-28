@@ -1,6 +1,6 @@
 
 <template>
-  <div class="text-gray-100 py-3.5 px-6 md:flex justify-between items-center">
+  <div tabindex="0" class="text-gray-100 py-3.5 px-6 md:flex justify-between items-center">
     <a href="/"><div class="flex items-center cursor-pointer">
       <span class="text-gray-100 text-xl mr-1">
         <i class="bi bi-code-square"></i>
@@ -17,7 +17,7 @@
       class="md:flex md:items-center md:px-0 px-6 md:pd-0 pd-10 md:static absolute bg-slate-950 md:w-auto w-full top-14 duration-700 ease-in"
       :class="[open ? 'left-0' : 'left-[-100%]']"
     >
-      <li class="md:px-6 md:py-0 py-2" v-for="link in links" :key="link.name">
+      <li role="listitem" class="md:px-6 md:py-0 py-2" v-for="link in links" :key="link.name">
         <a :href="link.link" class="text-xl hover:text-blue-600">{{
           link.name
         }}</a>

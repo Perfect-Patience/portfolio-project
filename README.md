@@ -1,29 +1,71 @@
 # portfolio-project
 
-This template should help get you started developing with Vue 3 in Vite.
+## Project Description
 
-## Recommended IDE Setup
+This project is a responsive personal portfolio website designed to showcase my skills, projects, and interests. The site contains my projects, with a focus on responsiveness and interactivity.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+---
 
-## Customize configuration
+## Features
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- Multiple pages: Home, About me, and Project.
 
-## Project Setup
 
-```sh
-npm install
-```
+## Technologies Used
 
-### Compile and Hot-Reload for Development
+- **HTML5**: For structuring the website.
+- **Tailwind CSS**: For styling and responsiveness.
+- **Vue Js**: For interactivity and Routing.
+- **JavaScript**: Base Interactivity Language.
+- **Bootstrap Icons**: For icons.
 
-```sh
-npm run dev
-```
+---
 
-### Compile and Minify for Production
+## Setup Instructions
 
-```sh
-npm run build
-```
+To clone and run the project locally:
+
+1. ### Clone the repository:
+
+   ```bash
+   git clone https://github.com/perfect-patience/portfolio-project.git
+   ```
+
+2. ### Navigate to the project directory:
+
+   ```bash
+   cd portfolio-project
+   ```
+
+3. ### Install dependencies:
+
+   ```bash
+   npm install
+   ```
+4. ### Compile and Hot-Reload for Development
+
+   ```bash
+   npm run dev
+   ```
+---
+
+## Bonus Features
+
+- **Animations**: Included Navbar Animations and Project Tile animations.
+- **Accessibility Improvements**: Implemented some ARIA roles and keyboard navigation using Tab-Index.
+- **Framework Usage**: Used Tailwind CSS and VueJs to enhance the design.
+
+---
+
+## Live Deployment
+
+- [Deployed Website on GitHub Pages](https://perfect-patience.github.io/portfolio-project)
+
+---
+
+## Repository Link
+
+- [GitHub Repository](https://github.com/perfect-patience/portfolio-project)
+
+---
+

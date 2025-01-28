@@ -4,7 +4,7 @@
       <h1 class="text-4xl font-bold text-white mb-8 text-center mb-8">
         Projects
       </h1>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" role="listitem">
         <div
           v-for="project in projects"
           :key="project.id"

@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <main class="bg-slate-950 h-fit">
+  <main class="bg-slate-950 h-fit" role="main">
   <div class="min-h-screen flex items-center justify-center">
     <div class="container mx-auto px-6 md:flex md:items-center">
      <!-- Introduction -->

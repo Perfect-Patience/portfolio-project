@@ -6,12 +6,12 @@ import Footer from './components/TheFooter.vue'
 
 <template>
 
-  <header class=" sticky top-0 bg-slate-950 h-md z-10">
-   <Navbar/>
+  <header class=" sticky top-0 bg-slate-950 h-md z-10" role="banner">
+   <Navbar role="navigation"/>
   </header>
 
   <RouterView />
-  <footer>
+  <footer role="contentinfo">
     <Footer/>
   </footer>
 </template>

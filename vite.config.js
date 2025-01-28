@@ -7,7 +7,10 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-    base: '/portfolio-project/',
+  publicPath: process.env.NODE_ENV === 'production'
+  ? '/portfolio-project/' 
+  : '/',
+    // base: '/portfolio-project/',
   plugins: [
     vue(),
     vueDevTools(),
@@ -18,7 +21,4 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
-  publicPath: process.env.NODE_ENV === 'production'
-  ? '/portfolio-project/' 
-  : '/',
 })

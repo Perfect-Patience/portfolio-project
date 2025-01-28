@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHashHistory } from 'vue-router';
 
 // Import views
 import HomeView from '@/views/HomeView.vue';
@@ -12,7 +12,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory('/portfolio-project/'),
+  history: createWebHashHistory('/portfolio-project/'),
   routes,
 });
 
